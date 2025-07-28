@@ -1,0 +1,13 @@
+# --- Çekirdek ---
+torch>=2.4.0           # PyTorch 2.4 Temmuz 2025’te çıktı :contentReference[oaicite:0]{index=0}
+torchvision>=0.17.0
+accelerate>=0.31.0
+
+# --- Model / Dönüştürücü ---
+transformers>=4.54.0   # transformers 4.54.0  25 Temmuz 2025 :contentReference[oaicite:1]{index=1}
+albumentations>=1.4.0
+opencv-python>=4.10.0.0
+tqdm>=4.66.0
+
+# --- İsteğe bağlı ---
+wandb>=0.17.0          # log tutacaksan
